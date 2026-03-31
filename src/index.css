@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-green: #1e5631;
+  --color-brand-bg: #f4f7f4;
+  --color-brand-sidebar: #e8f0e8;
+}
+
+body {
+  background-color: var(--color-brand-bg);
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-brand-green);
+}
